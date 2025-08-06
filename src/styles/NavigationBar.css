@@ -13,7 +13,19 @@
 .navbar-brand {
   color: white !important;
 }
+
 .navbar-white .nav-link,
 .navbar-white .navbar-brand {
   color: black !important;
+}
+
+@media (max-width: 768px) {
+  .navbar-collapse {
+    background-color: white !important;
+  }
+
+  .nav-link,
+  .navbar-brand {
+    color: black !important;
+  }
 }

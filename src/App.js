@@ -1,5 +1,5 @@
 import React from 'react'
-import { BrowserRouter as  Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
 import NavigationBar from './components/NavigationBar'
 import Home from './components/Home'
@@ -10,16 +10,15 @@ const App = () => {
   return (
     <div>
       <div className="app-container">
-        <NavigationBar />
+        <NavigationBar  />
         <Routes>
-          <Route path="/home" element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route path="/about" element={<AboutUs />} />
           <Route path="/volunteer" element={<VolunteerForm />} />
         </Routes>
         <Footer />
       </div>
-</div>
-  )
+    </div>)
 }
 
 export default App

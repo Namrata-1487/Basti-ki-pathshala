@@ -1,6 +1,5 @@
 .hero-section {
-
-      height: 100vh;
+      padding: 10rem !important;
       background-size: cover;
       background-position: center;
       background-color: rgb(47, 46, 46);
@@ -38,8 +37,10 @@ p {
       background-blend-mode: overlay;
 
 }
-.counter-number span{
+
+.counter-number span {
       font-size: 70px;
-      color: #ffc107; /* Bootstrap warning color */
+      color: #ffc107;
+      /* Bootstrap warning color */
       font-weight: bold;
 }
