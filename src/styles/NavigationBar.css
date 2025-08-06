@@ -1,0 +1,19 @@
+.navbar-transparent {
+  background-color: transparent !important;
+  transition: all 0.4s;
+}
+
+.navbar-white {
+  background-color: white !important;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.4s;
+}
+
+.nav-link,
+.navbar-brand {
+  color: white !important;
+}
+.navbar-white .nav-link,
+.navbar-white .navbar-brand {
+  color: black !important;
+}

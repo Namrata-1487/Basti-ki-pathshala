@@ -1,0 +1,37 @@
+.hero-section {
+
+      height: 100vh;
+      background-size: cover;
+      background-position: center;
+      background-color: rgb(47, 46, 46);
+      color: white;
+      background-blend-mode: overlay;
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+}
+
+.hero-content {
+      max-width: 800px;
+      padding: 2rem;
+      text-shadow: 0 2px 8px rgba(0, 0, 0, 0.8);
+}
+
+.about-preview {
+      margin-top: -100px;
+      /* Adjust this value as needed */
+      position: relative;
+      z-index: 2;
+}
+p{
+      padding-right: 20px;
+      font-family: sans-serif;
+      color: gray;
+      font-weight: lighter;
+}
+.stats-counter{
+      background-position: center;
+            background-color: rgb(47, 46, 46);
+            
+}
