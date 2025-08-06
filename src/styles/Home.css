@@ -24,14 +24,22 @@
       position: relative;
       z-index: 2;
 }
-p{
+
+p {
       padding-right: 20px;
       font-family: sans-serif;
       color: gray;
       font-weight: lighter;
 }
-.stats-counter{
+
+.stats-counter {
       background-position: center;
-            background-color: rgb(47, 46, 46);
-            
+      background-color: rgb(26, 26, 26);
+      background-blend-mode: overlay;
+
+}
+.counter-number span{
+      font-size: 70px;
+      color: #ffc107; /* Bootstrap warning color */
+      font-weight: bold;
 }

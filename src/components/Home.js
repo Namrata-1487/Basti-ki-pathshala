@@ -42,7 +42,7 @@ const Home = () => {
 
 
  return (
-  <div className='container-fluid p-0'>
+  <div className='container-fluid bg-white p-0'>
    <div className="hero-section" style={{ backgroundImage: `url(${background})` }}>
     <Container className="text-center text-white hero-content">
      <h1 className="display-3 ">Basti Ki Pathshala Foundation</h1>
@@ -147,10 +147,10 @@ const Home = () => {
 
     </div>
    </section>
-   <section className="testimonials container-fluid pt-5 bg-white">
+   <section className="testimonials container py-5 bg-white">
     <h2 className="section-title text-center mt-5">Intern Insights</h2>
     <p className="section-subtitle text-center ">Hear from Our Valued Team Members </p>
-    <div className="row my-5 py-5">
+    <div className="row py-5">
      {testimonials.map((testimonial, index) => (
       <div className="col-lg-4 mb-4" key={index}>
        <div className="testimonial-card p-5 h-100 rounded shadow-sm bg-light">
@@ -168,18 +168,19 @@ const Home = () => {
      ))}
     </div>
    </section>
-   <section className="stats-counter d-flex align-items-center"
+   <section className="stats-counter py-5 d-flex align-items-center"
     style={{
      backgroundImage: `url(${bgImage})`,
+
      backgroundSize: 'cover',
      backgroundPosition: 'center',
      color: 'white',
     }}
    >
-    <div className="container py-5">
-     <div className="row text-center">
+    <div className="container-fluid py-5">
+     <div className="row align-items-center justify-content-center text-center">
       {statsData.map((stat, index) => (
-       <div className="col-md-3 mb-4" key={index}>
+       <div className="col-md-3" key={index}>
         <h1 className="counter-number text-warning fw-bold">
          <CountUp end={stat.value} duration={3} separator="," />
         </h1>
