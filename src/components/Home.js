@@ -43,7 +43,7 @@ const Home = () => {
 
  return (
   <div className='container-fluid bg-white p-0'>
-   <div className="hero-section container-fluid container-lg " style={{ backgroundImage: `url(${background})` }}>
+   <div className="hero-section container-fluid" style={{ backgroundImage: `url(${background})` }}>
     <Container className="text-center text-white hero-content">
      <h1 className="display-3 ">Basti Ki Pathshala Foundation</h1>
      <p className="lead fs-5 text-white my-3">
