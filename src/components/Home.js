@@ -59,7 +59,7 @@ const Home = () => {
     <div className="container bg-white rounded-3 shadow">
      <div className="row p-lg-5 p-0">
       <div className="col-lg-6 mb-4 mb-lg-0 border-end">
-       <img src={aboutImage} alt="About Us" className="img-fluid rounded w-100" />
+       <img src={aboutImage} alt="About Us" className="img-fluid rounded w-100" loading="eager"/>
       </div>
       <div className="col-lg-6 p-4">
        <h5 className="text-uppercase text-dark ">About Us</h5>
@@ -106,14 +106,14 @@ const Home = () => {
       </div>
      </div>
      <div className="col-lg-6 text-center">
-      <img src={childrenImage} alt="Children studying" className="img-fluid rounded shadow w-75 " />
+           <img src={childrenImage} alt="Children studying" className="img-fluid rounded shadow w-75 " loading="eager" />
      </div>
     </div>
    </section>
    <section className="join-us-section container-fluid bg-light ">
     <div className="row">
      <div className="col-lg-6 p-0">
-      <img src={childrenImage2} alt="Children studying 2" className="img-fluid shadow w-100" />
+           <img src={childrenImage2} alt="Children studying 2" className="img-fluid shadow w-100" loading="eager" />
      </div>
      <div className="col-lg-6 p-5">
       <div className='pt-5'>
@@ -159,7 +159,7 @@ const Home = () => {
          <img
           src={testimonial.image}
           alt={testimonial.name}
-          className="testimonial-img mb-2 w-25 h-25 rounded-circle shadow"
+               className="testimonial-img mb-2 w-25 h-25 rounded-circle shadow" loading="eager"
          />
          <h5 className="testimonial-name">{testimonial.name}</h5>
         </div>
