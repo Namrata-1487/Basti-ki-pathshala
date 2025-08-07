@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Basti-ki-pathshala/static/css/main.ce014559.css",
-    "main.js": "/Basti-ki-pathshala/static/js/main.8ebc51a6.js",
+    "main.css": "/Basti-ki-pathshala/static/css/main.a43d6a8a.css",
+    "main.js": "/Basti-ki-pathshala/static/js/main.d7eb8f78.js",
     "static/js/453.96453769.chunk.js": "/Basti-ki-pathshala/static/js/453.96453769.chunk.js",
     "static/media/background-image.jpg": "/Basti-ki-pathshala/static/media/background-image.670c551e2d093725cf7f.jpg",
     "static/media/childrenImage2.jpg": "/Basti-ki-pathshala/static/media/childrenImage2.c4e2604a7f9243b1f98d.jpg",
@@ -13,12 +13,12 @@
     "static/media/kanika.jpg": "/Basti-ki-pathshala/static/media/kanika.1a6bd4c5c597a292af9c.jpg",
     "static/media/Pooja.jpg": "/Basti-ki-pathshala/static/media/Pooja.d0a7f4acef58ed403a44.jpg",
     "index.html": "/Basti-ki-pathshala/index.html",
-    "main.ce014559.css.map": "/Basti-ki-pathshala/static/css/main.ce014559.css.map",
-    "main.8ebc51a6.js.map": "/Basti-ki-pathshala/static/js/main.8ebc51a6.js.map",
+    "main.a43d6a8a.css.map": "/Basti-ki-pathshala/static/css/main.a43d6a8a.css.map",
+    "main.d7eb8f78.js.map": "/Basti-ki-pathshala/static/js/main.d7eb8f78.js.map",
     "453.96453769.chunk.js.map": "/Basti-ki-pathshala/static/js/453.96453769.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ce014559.css",
-    "static/js/main.8ebc51a6.js"
+    "static/css/main.a43d6a8a.css",
+    "static/js/main.d7eb8f78.js"
   ]
 }
