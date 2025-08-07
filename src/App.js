@@ -8,17 +8,18 @@ import VolunteerForm from './components/VolunteerForm'
 import Footer from './components/Footer'
 const App = () => {
   return (
-    <div>
-      <div className="app-container">
-        <NavigationBar  />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<AboutUs />} />
-          <Route path="/volunteer" element={<VolunteerForm />} />
-        </Routes>
-        <Footer />
-      </div>
-    </div>)
+    <>      {/* <div className="app-container"> */}
+      <NavigationBar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<AboutUs />} />
+        <Route path="/volunteer" element={<VolunteerForm />} />
+      </Routes>
+      <Footer />
+      {/* </div > */}
+      {/* // </div>) */}
+    </>
+  )
 }
 
 export default App
