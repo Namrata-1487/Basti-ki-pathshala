@@ -8,7 +8,7 @@ import reportWebVitals from './reportWebVitals';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
-    <BrowserRouter>
+  <BrowserRouter basename="/Basti-ki-pathshala">
       <App />
     </BrowserRouter>
 );
