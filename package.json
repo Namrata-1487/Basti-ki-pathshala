@@ -1,6 +1,6 @@
 {
   "name": "my-app",
-  "homepage": "/Basti-ki-pathshala",
+  "homepage": ".",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
