@@ -57,7 +57,7 @@ const Home = () => {
    </div>
    <section className="about-preview py-5">
     <div className="container bg-white rounded-3 shadow">
-     <div className="row p-5">
+     <div className="row p-lg-5 p-0">
       <div className="col-lg-6 mb-4 mb-lg-0 border-end">
        <img src={aboutImage} alt="About Us" className="img-fluid rounded w-100" />
       </div>

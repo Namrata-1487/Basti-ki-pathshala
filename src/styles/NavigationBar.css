@@ -20,8 +20,12 @@
 }
 
 @media (max-width: 768px) {
+  Container{
+    padding: 0 0 !important;
+  }
   .navbar-collapse {
     background-color: white !important;
+    margin: 0;
   }
 
   .nav-link,
