@@ -1,8 +1,11 @@
 import React from 'react'
-import { Container, Breadcrumb} from 'react-bootstrap'
+import { Container, Breadcrumb } from 'react-bootstrap'
 // import { Link } from 'react-router-dom';
 import CountUp from 'react-countup';
 import background from './images/background-image.webp'; // Your background image
+import image1 from './images/Our-Mission.webp'; // Example image for the mission section
+import image2 from './images/Our-Story.webp'; // Example image for the vision section
+
 
 const count = [
   {
@@ -59,7 +62,7 @@ const AboutUs = () => {
             At Basti Ki Pathshala Foundation, collaboration is at the heart of everything we do. Under the banner of ‘We Work Together,’ we embrace the power of unity, recognizing that real change comes from collective action. Our dedicated team, passionate volunteers, generous donors, and supportive community members all play integral roles in our mission to break the barriers of education in underserved communities. Together, we strive towards a common goal: to empower every child with the opportunity to thrive. Through shared vision, shared values, and shared effort, we pave the way for a brighter, more inclusive future for all.
           </p>
         </div>
-        <div className="impact-stats-section py-5">
+        <div className="impact-stats-section pb-5">
           <Container>
             <div className="container-fluid py-5">
               <div className="row align-items-center justify-content-center text-center">
@@ -69,7 +72,7 @@ const AboutUs = () => {
                       <span className="fs-1">{stat.icon}</span>
                     </div>
                     <h1 className="counter-number">
-                      <CountUp end={stat.number} duration={2.5} separator="," className='text-dark fw-bold' />
+                      <CountUp end={stat.number} duration={5} separator="," className='text-dark fw-bold' />
                     </h1>
                     <h5 className="counter-label">{stat.label}</h5>
                   </div>
@@ -79,7 +82,48 @@ const AboutUs = () => {
           </Container>
         </div>
       </div>
+      <Container fluid className='bg-white p-5'>
+        <div
+          className="row justify-content-center align-items-center g-2"
+        >
+          <div className="col px-5">
+            <h1 className="text-start mb-4 heading">Our Mission: A succinct statement outlining the core purpose and goals of your organization</h1>
+            <p className="text-start fs-5 text-muted">At Basti Ki Pathshala Foundation, our mission is clear: to break the barriers of education in underserved communities. We are dedicated to providing quality education to children living in slum areas, ensuring that every child has the opportunity to thrive and succeed. Our goal is to create a nurturing learning environment where every child can access the tools, resources, and support they need to unlock their full potential. Through innovative teaching methods, community engagement, and strategic partnerships, we empower children with the knowledge and skills necessary to build a brighter future for themselves and their communities. Our mission extends beyond the classroom as we work tirelessly to bridge the educational gap and foster long-term, sustainable change in the lives of marginalized families. Together, we strive to rewrite the narrative of education, one child at a time.
+
+            </p>
+          </div>
+          <div className="col">
+            <img src={image1} alt="Our Mission" className="img-fluid rounded" />
+          </div>
+        </div>
+      </Container>
+      <Container fluid className='bg-white p-5'>
+        <div className="row justify-content-center align-items-center g-2"
+        >
+          <div className="col">
+            <img src={image2} alt="Our story" className="img-fluid rounded" />
+          </div>
+          <div className="col px-5">
+            <h1 className="text-start mb-4 heading">Our Story:</h1>
+            <p className="text-start fs-5 text-muted">Basti Ki Pathshala Foundation began with a simple yet powerful vision: to transform the lives of children living in slum areas through education. Founded under the Indian Societies Act of 1860, our journey started with a deep-seated belief in the potential of every child, regardless of their circumstances.
+
+            </p>
+            <p className="text-start fs-5 text-muted">It all began when Sunita, inspired by their own experiences and driven by a passion for social justice, embarked on a mission to address the educational inequalities prevalent in underserved communities. Armed with determination and fueled by compassion, they rallied a team of like-minded individuals who shared their vision of a brighter, more equitable future.
+            </p>
+            <p className="text-start fs-5 text-muted">From humble beginnings, our organization has grown into a beacon of hope, touching the lives of countless children and families along the way. Each milestone achieved, each barrier overcome, has only strengthened our resolve to continue our mission of empowerment and transformation.
+            </p>
+            <p className="text-start fs-5 text-muted">Through the years, we’ve witnessed the transformative power of education firsthand. We’ve seen shy, uncertain children blossom into confident, capable individuals, equipped with the knowledge and skills to pursue their dreams. We’ve seen communities come together, united by a shared commitment to the betterment of their children’s future.
+            </p>
+            <p className="text-start fs-5 text-muted">As we reflect on our journey, we are filled with gratitude for the unwavering support of our volunteers, donors, partners, and the communities we serve. Together, we have achieved so much, yet we know that our work is far from over.
+            </p>
+            <p className="text-start fs-5 text-muted">Our story is still being written, with each chapter filled with hope, resilience, and determination. As we look towards the future, we remain steadfast in our mission to break down barriers, uplift communities, and create a world where every child has the opportunity to thrive.
+            </p>
+          </div>
+
+        </div>
+      </Container>
     </div>
+
   )
 }
 

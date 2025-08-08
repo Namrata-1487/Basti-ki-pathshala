@@ -49,10 +49,7 @@ const statsData = [
 ];
 
 const Home = () => {
-
-
   return (
-
     <div className='container-fluid bg-white p-0'>
       <div className="hero-section container-fluid" style={{ backgroundImage: `url(${background})` }}>
         <Container className="text-center text-white hero-content">
@@ -193,7 +190,7 @@ const Home = () => {
             {statsData.map((stat, index) => (
               <div className="col-md-3" key={index}>
                 <h1 className="counter-number text-warning fw-bold">
-                  <CountUp end={stat.value} duration={3} separator="," />
+                  <CountUp end={stat.value} duration={10} separator="," />
                 </h1>
                 <h5 className="counter-label">{stat.label}</h5>
               </div>
