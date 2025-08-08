@@ -1,4 +1,4 @@
-.hero-section {
+.hero-section{
       padding: 10rem 0;
       background-size: cover;
       background-position: center;
@@ -18,10 +18,27 @@
 }
 
 .about-preview {
-      margin-top: -100px;
-      /* Adjust this value as needed */
+      margin-top: -60px;
       position: relative;
       z-index: 2;
+}
+
+.testimonial-card {
+      background: #f8f9fa;
+      border-radius: 1rem;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.testimonial-img {
+      width: 80px;
+      height: 80px;
+      object-fit: cover;
+}
+
+.stats-counter {
+      background-size: cover;
+      background-position: center;
+      color: white;
 }
 
 p {
@@ -31,16 +48,23 @@ p {
       font-weight: lighter;
 }
 
-.stats-counter {
-      background-position: center;
-      background-color: rgb(26, 26, 26);
-      background-blend-mode: overlay;
-
-}
-
 .counter-number span {
       font-size: 70px;
       color: #ffc107;
       /* Bootstrap warning color */
       font-weight: bold;
+}
+
+@media (max-width: 991.98px) {
+      .hero-section {
+            padding: 5rem 0;
+      }
+
+      .about-preview {
+            margin-top: 0;
+      }
+
+      .testimonial-card {
+            padding: 2rem;
+      }
 }

@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { Navbar, Nav, Container } from 'react-bootstrap';
+import { Navbar, Nav, Container, Button } from 'react-bootstrap';
 import '../styles/NavigationBar.css';
-import logo from './images/logo.png';
+import logo from './images/logo.webp';
 
 export default function NavigationBar() {
  const [scrolled, setScrolled] = useState(false);
@@ -26,12 +26,14 @@ export default function NavigationBar() {
      <img src={logo} alt="Logo" width="70" className="logo" />
     </Navbar.Brand>
     <Navbar.Toggle aria-controls="main-navbar-nav" />
-    <Navbar.Collapse id="main-navbar-nav" className="justify-content-lg-end">
+    <Navbar.Collapse id="main-navbar-nav" className="justify-content-lg-end" defaultActiveKey="/home">
      <Nav className="container-fluid p-lg-0 p-5 justify-content-lg-end align-items-center">
       <Nav.Link as={Link} className='fs-5' to="/">Home</Nav.Link>
       <Nav.Link as={Link} className='fs-5' to="/about">About Us</Nav.Link>
       <Nav.Link as={Link} className='fs-5' to="/volunteer">Volunteer</Nav.Link>
-      <Nav.Link as={Link} to="/donate" className="btn btn-warning ms-3 text-white fs-3">Donate</Nav.Link>
+      <Nav.Link as={Link} to="/donate">
+       <Button variant="outline-warning" size='lg' >Donate </Button>
+      </Nav.Link>
      </Nav>
     </Navbar.Collapse>
    </Container>
