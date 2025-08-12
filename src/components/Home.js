@@ -11,18 +11,8 @@ import shreya from './images/Shreya.webp'; // Importing the testimonial images
 import pooja from './images/Pooja.webp';  // Importing the testimonial images
 import CountUp from 'react-countup'; // Importing CountUp for animated number counting
 import bgImage from './images/bgImage.webp'; // Importing the background image for stats section
-import {
-  ScrollContainer,
-  ScrollPage,
-  Animator,
-  batch,
-  Fade,
-  Move,
-  Sticky,
-  ZoomIn,
-} from "react-scroll-motion";
 
-const ZoomInScrollOut = batch(Sticky(), Fade(), ZoomIn());
+
 const testimonials = [
   {
     name: "Kanika Rajput",
